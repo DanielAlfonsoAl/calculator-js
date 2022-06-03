@@ -1,0 +1,69 @@
+#cal{
+  width: 4%;
+
+}
+#h{
+  text-align: center;
+}
+.numero{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(148, 208, 236);
+  border-radius: 4px;
+}
+
+.numero:hover{
+  background-color: rgba(22, 206, 206, 0.849);
+}
+
+.numero:active{
+  background-color: rgb(231, 0, 0);
+}
+.operador{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(221, 203, 38);
+  color:rgb(255, 255, 255);
+  border-radius: 4px;
+
+}
+#tabla{
+  width: 205px;
+  height: 40px ;
+  margin-block: 5px;
+  background-color: black;
+  color:white;
+  border: white solid 2px;
+  border-radius: 4px;
+  text-align  :end;
+
+}
+.accion{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(219, 224, 226);
+  border-radius: 4px;
+}
+.accion:hover{
+  background-color: azure;
+}
+.operador:hover{
+  background-color:rgb(41, 27, 27);
+}
+.tabla{
+  padding-left:35px;
+  background-color: rgb(112, 73, 73);
+  width: 260px;
+  height: 380px;
+  padding-top:  50px;
+  border-radius: 8px;
+}
+#igual{
+  width: 210px;
+}
+.contenedor {
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  display: grid;
+}

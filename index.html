@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+  <h1 id="h">Calculadora <img src="https://images.vexels.com/media/users/3/127358/isolated/preview/736663fe6f9e03fcb39ace9020c42b4c-icono-de-calculadora-estacionaria.png" id="cal"></h1>
+<div class="contenedor">
+  <div class="tabla"> 
+    <input type="text" id="tabla"  >
+    
+    <div>
+      <input type="button" class="numero" value="7" id="siete"  onclick="botonNU(7);">
+      <input type="button" class="numero" value="8" id="ocho"  onclick="botonNU(8);">
+      <input type="button" class="numero" value="9" id="nueve"  onclick="botonNU(9);">
+      <input type="button" class="operador" value="÷" id="dividir"  onclick="botonOP('/')">
+    </div>
+    <div>
+      <input type="button" class="numero" value="4" id="cuatro"  onclick="botonNU(4);">
+      <input type="button" class="numero" value="5" id="cinco"  onclick="botonNU(5);">
+      <input type="button" class="numero" value="6" id="seis"  onclick="botonNU(6);">
+      <input type="button" class="operador" value="x" id="multiplicar"  onclick="botonOP('*');">
+    </div>
+    <div>
+      <input type="button" class="numero" value="1" id="uno"  onclick="botonNU(1);">
+      <input type="button" class="numero" value="2" id="dos"  onclick="botonNU(2);">
+      <input type="button" class="numero" value="3" id="tre"  onclick="botonNU(3);">
+      <input type="button" class="operador" value="-" id="restar"  onclick="botonOP('-');">
+  
+    </div>
+    <div>
+      <input type="button" class="numero" value="," id="coma"  onclick="botonNU(',');">
+      <input type="button" class="numero" value="0" id="cero"  onclick="botonNU(0);">
+      <input type="button" class="numero" value="." id="punto"  onclick="botonNU('.');">
+      <input type="button" class="operador" value="+" id="sumar"  onclick="botonOP('+');">
+  
+    </div>
+    <div>
+    <input type="button" class="accion" id="borrarTodo" value="AC" onclick="borrarTodo();">
+    <input type="button"class="accion" id="borrar" value="C" onclick="borrar();">
+    <input type="button" class="operador"id="raiz" value="√" onclick="raiz();">
+    <input type="button" class="operador" id="potencia" value="^" onclick="potencia();">
+    
+    </div>
+    <input type="button" class="accion" id="igual" value="=" onclick="igual();">
+  </div>
+</div>
+
+
+ <script src="calculadora.js"></script>
+
+
+</body>
+</html>
